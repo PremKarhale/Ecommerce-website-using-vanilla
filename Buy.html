@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Now | Local Handicrafts Hub</title>
+  <link rel="stylesheet" href="Buy.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Local Handicrafts Hub</div>
+    <nav>
+      <a href="home.html" class="active">Home</a>
+      <a href="product.html">Products</a>
+      <a href="Bestseller.html">Best Sellers</a>
+      <a href="Aboutus.html">About Us</a>
+    </nav>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." />
+      <button class="search-btn">🔍</button>
+      <a href="login.html">
+        <button class="login-btn">Login</button></a>
+      <button class="cart-btn">🛒</button>
+    </div>
+  </header>
+
+  <!-- Checkout Section -->
+  <section class="checkout-container">
+    <h1>Complete Your Purchase</h1>
+
+    <div class="checkout-grid">
+      <!-- Left Side: Form -->
+      <div class="checkout-form">
+        <h2>Customer Information</h2>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your full name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Phone</label>
+        <input type="tel" placeholder="Enter your phone number">
+
+        <label>Shipping Address</label>
+        <textarea placeholder="Enter full shipping address"></textarea>
+
+        <h2>Payment Method</h2>
+        <div class="payment-options">
+          <label><input type="radio" name="payment" checked> Credit / Debit Card</label>
+          <label><input type="radio" name="payment"> UPI</label>
+          <label><input type="radio" name="payment"> Net Banking</label>
+          <label><input type="radio" name="payment"> Cash on Delivery</label>
+        </div>
+
+        <div class="promo">
+          <label>Promo Code</label>
+          <input type="text" placeholder="Enter promo code">
+        </div>
+      </div>
+
+      <!-- Right Side: Summary -->
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+
+        <div class="summary-item">
+          <p>Handwoven Kilim Rug</p>
+          <p>$299</p>
+        </div>
+        <div class="summary-item">
+          <p>Subtotal</p>
+          <p>$299</p>
+        </div>
+        <div class="summary-item">
+          <p>Shipping</p>
+          <p>$10</p>
+        </div>
+        <div class="summary-item total">
+          <p>Total</p>
+          <p>$309</p>
+        </div>
+
+        <div class="checkout-buttons">
+          <button class="btn cancel">Cancel</button>
+          <button class="btn complete">Complete Purchase</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-left">
+      <h4>Contact Us</h4>
+      <p>Phone | Email | Twitter | Facebook</p>
+    </div>
+    <div class="footer-right">
+      <h4>Quick Links</h4>
+      <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+</body>
+</html>
