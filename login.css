@@ -1,0 +1,196 @@
+/* ------------------------------
+   AUTH (LOGIN / SIGNUP) PAGE
+------------------------------ */
+.auth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #fff5f5;
+  padding: 40px 20px;
+}
+
+.auth-box {
+  background: #ffffff;
+  border: 1px solid #e0bebe;
+  border-radius: 10px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-box h2 {
+  color: #7a0000;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.subtext {
+  color: #666;
+  margin-bottom: 25px;
+  font-size: 0.95em;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #7a0000;
+}
+
+.auth-form input {
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.95em;
+}
+
+.auth-btn {
+  background-color: #b30000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.auth-btn:hover {
+  background-color: #d00000;
+  transform: scale(1.05);
+}
+
+.small-text {
+  font-size: 0.9em;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.small-text a {
+  color: #7a0000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.small-text a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #7a0000;
+  padding: 15px 40px;
+  display: flex;
+  justify-content:center;
+  color: #fff;
+  font-size: larger;
+}
+    
+footer {
+  background-color: #7a0000;
+  color: #fff;
+  padding: 25px 40px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-section {
+  margin-bottom: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 6px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #fff;
+  font-size: 0.95em;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #ffd4d4;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 1px solid #a64d4d;
+  padding-top: 10px;
+}
+
+/* -------------------------------------
+   RESPONSIVE DESIGN
+-------------------------------------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin: 10px 0;
+  }
+
+  .nav-right {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 8px;
+  }
+
+  .nav-right input {
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .auth-box {
+    padding: 25px;
+  }
+
+  .auth-btn {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 15px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .auth-box {
+    padding: 25px;
+  }
+
+  .auth-btn {
+    width: 100%;
+  }
+}
